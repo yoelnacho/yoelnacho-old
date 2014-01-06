@@ -1,0 +1,15 @@
+$color-alpha: black;
+$color-beta: white;
+
+$max-width: 990px;
+
+// GRID
+$gutters: 0;
+
+$small: 30rem; 		//480px
+$medium: 40.63rem; 	//650px
+$large: 53.13rem; 	//850px
+
+$grids: 1;
+$grids: add-grid(3 at $medium);
+$grids: add-grid(5 at $large);
